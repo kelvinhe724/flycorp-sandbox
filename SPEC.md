@@ -33,7 +33,7 @@ Free Play, Unlock All (timed country unlocks), Scenarios, Sandbox. Sandbox/econo
 Spawn with a destination; pathing = fewest hops, ties broken by distance; they transfer freely.
 
 ## Time
-1 game week ≈ 1 real minute. Pause / 1x / 2x / 4x.
+1 game week ≈ 3 real minutes (CFG.weekSec). Pause / ½x / 1x / 2x / 4x (+10/100/1000x with cheats).
 
 ## Events
 Real-world flavored (Olympics, Eyjafjallajökull ash, typhoon, Hajj, CNY), Fly Corp classic (strike, Super Jet, trade-in, block, fare boost), choice cards. No pandemic.
@@ -47,5 +47,5 @@ Scale, exploration, design feats.
 ## Feel / UI
 - Drag city→city to build routes. Fly Corp flat look.
 - Soft SFX + mute. Haptics only work on Android (iOS Safari can't vibrate).
-- Saves: autosave + 5 slots in localStorage.
-- Stats panel: load factor, route profit, busiest airports.
+- Saves: autosave + 5 slots in localStorage under fc2_* (v2: cities referenced by "name|country" via a per-save key table, weekly history included). v1 fc_* keys are read-only: auto-imported on first v2 launch via legacy-ids.js, re-importable from Save/Load, never written.
+- Stats: city card Info|Stats tabs (sparklines, unmet demand, transfer flows, rank), route sparklines/payback/mix, full dashboard (graphs, sortable tables, places, fleet, records). Bulk actions with preview + budget cap. Map filter chip, ⚠️ problem badge, swipeable half/full sheet, light/dark/auto themes.

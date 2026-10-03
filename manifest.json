@@ -1,2 +1,2 @@
-{"name":"Fly Corp Sandbox","short_name":"FlyCorp","start_url":"./","scope":"./","display":"standalone","orientation":"any","background_color":"#9fd0ea","theme_color":"#9fd0ea",
+{"name":"Fly Corp Sandbox","short_name":"FlyCorp","start_url":"./","scope":"./","display":"standalone","orientation":"any","background_color":"#6fc3ec","theme_color":"#6fc3ec",
  "icons":[{"src":"icon-180.png","sizes":"180x180","type":"image/png"},{"src":"icon-512.png","sizes":"512x512","type":"image/png"}]}
